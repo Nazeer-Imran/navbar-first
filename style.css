@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: beige;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+    margin: 50px  10px ;
+}
+
+.logo{
+    font-size:large ;
+    text-transform: uppercase ;
+    border: 2px solid black;
+    font-weight: 800;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.headers ul {
+   display: flex;
+   justify-content: space-between;
+    
+    
+}
+a{
+    text-decoration: none;
+   
+    color: aliceblue;
+}
+a:hover{
+    color: gray;
+    font-weight: 600;
+} 
+
+.nav2{
+    justify-content: space-between;
+}
+.nav2 .headers{
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+
+.container3 .headers{
+    margin-left: 70px;
+}
+.btn{
+    background-color: rgb(132, 12, 128);
+    margin: 0px 5px;
+    padding: 3px;
+    border-radius: 20%;
+    border: 1px solid black;
+}
+.button :hover{
+    color: cadetblue;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin: 0px 5px 0px; 
+}
+nav .container3 ,nav .container  {
+    width: 90%;
+    margin: auto;
+}
+/* conyainer1 */
+.container{
+    display: flex;
+    justify-content: space-around!important;
+}
+
+/* container 2 */
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+/* container 3 */
+.container3{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    box-shadow:1px 2px 4px rgb(54, 52, 52);
+}
